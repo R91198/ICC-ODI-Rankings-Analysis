@@ -1,0 +1,13 @@
+To execute the crawler:-
+
+-> Just run all the cells of "Cricket Web Scraping.ipynb" file.
+-> The web scraping will begin and it will save the scraped data for all the three departments in a
+comma separated values(csv) format as "Batsmen_data.csv", "Bowler_data.csv", "All_Rounder_data.csv"
+and the whole combined dataset will be saved as "All_ODI_Rankings.csv".
+
+To execute the Streamlit dashboard :-
+-> Provide the path of the overall dataset "All_ODI_Rankings.csv" to the variable 'data_url' in the file "Dashboard.py".
+-> After this, just write "streamlit run Dashboard.py" command to the terminal pointing on the "Dashboard.py" file.
+-> It will execute the dashboard on the local host server to see the analysis.
+
+
